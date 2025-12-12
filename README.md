@@ -1,6 +1,4 @@
 # Jonathan-Smith-HCC-AI
-Deep Learning ITAI 2376
-# Deep Learning Portfolio - ITAI 2376
 # Deep Learning Portfolio - ITAI 2376
 
 **Author:** Jonathan Smith  
