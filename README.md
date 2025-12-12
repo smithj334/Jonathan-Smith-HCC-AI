@@ -1,73 +1,65 @@
 # Jonathan-Smith-HCC-AI
 Deep Learning ITAI 2376
 # Deep Learning Portfolio - ITAI 2376
+# Deep Learning Portfolio - ITAI 2376
 
 **Author:** Jonathan Smith  
 **Institution:** Houston City College (HCC)  
-**Course:** ITAI 2376 – Deep Learning
-
-## 📂 Repository Overview
-
-This repository contains coursework, labs, and the final capstone project for the Deep Learning curriculum. The work progresses from foundational neural network concepts to advanced architectures including Convolutional Neural Networks (CNNs), Generative Diffusion Models, and Autonomous AI Agents.
-
-## 🚀 Featured Projects
-
-### 1. Intelligent Process Automation Agent (IPAA) (Capstone)
-**Collaborators:** Jonathan Smith, Miguel Mora  
-An autonomous AI agent designed to solve "Contextual Action" problems in administrative automation. Unlike standard chatbots, this agent uses the **ReAct (Reasoning + Acting)** paradigm to perceive user intent, plan execution steps, and perform real-world actions.
-
-* **Key Features:**
-    * **Autonomous Planning:** Decomposes high-level requests (e.g., "Schedule a meeting") into atomic executable steps.
-    * **RAG Memory:** Utilizes **FAISS** (Vector Database) to retrieve context from past interactions and documents.
-    * **Tool Integration:** Connects to the **Google Calendar API** to authenticate and book real events via an OOB (Out-of-Band) flow.
-    * **Safety Mechanisms:** Implements "Human-in-the-Loop" validation before executing external API calls.
-
-### 2. Generative Diffusion Model
-**Technology:** PyTorch, U-Net, Einops  
-A deep learning model implemented from scratch to generate realistic handwritten digits (MNIST) by reversing a noise-addition process.
-
-* **Highlights:**
-    * Built a U-Net architecture to predict noise residuals.
-    * Implemented linear noise schedulers for forward and reverse diffusion processes.
-    * Visualized the denoising process, transforming pure static into recognizable digits over 100+ timesteps.
-
-### 3. High-Performance CNN Classifier
-**Technology:** TensorFlow, Keras  
-A specialized Convolutional Neural Network (CNN) designed for computer vision tasks.
-
-* **Performance:** Achieved **99.15% accuracy** on the MNIST test set.
-* **Architecture:** Utilized `Conv2D` layers for feature extraction (edges, curves) and `MaxPooling2D` for spatial downsampling, demonstrating the advantage over dense networks for image data.
-
-## 📝 Theoretical Analysis & Research
-
-* **NLP & "Arrival":** A comparative analysis of the film *Arrival* and modern Natural Language Processing, exploring linguistic relativity, lexical ambiguity, and non-linear cognition in AI communication.
-* **The Neural Network Zoo:** An exploration of CNN architectures through the metaphor of a cheetah ("Fast and focused"), contrasting them with RNNs and Transformers.
-* **Backpropagation Explained:** A breakdown of how neural networks learn from mistakes, explained via the "Whisper Team" analogy.
-
-## 🛠️ Technologies & Tools
-
-* **Languages:** Python
-* **Frameworks:** PyTorch, TensorFlow, Keras
-* **Libraries:** FAISS (Vector Search), Einops, PyMuPDF (Document Processing), Matplotlib, Pandas, NumPy
-* **APIs:** Google Calendar API, Google Colab (GPU Acceleration)
-
-## 📦 Setup & Installation
-
-To run the notebooks locally, ensure you have Python 3.10+ installed.
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/smithj334/Jonathan-Smith-HCC-AI.git](https://github.com/smithj334/Jonathan-Smith-HCC-AI.git)
-    cd Jonathan-Smith-HCC-AI
-    ```
-
-2.  **Install dependencies:**
-    ```bash
-    pip install torch tensorflow keras faiss-cpu pymupdf google-api-python-client google-auth-httplib2 google-auth-oauthlib
-    ```
-
-3.  **Run the Agent:**
-    Open `FN_Notebook_Mora_Miguel_Group3_ITAI2376ipynb.ipynb` in Jupyter or Google Colab to initialize the IPAA agent.
+**Course:** ITAI 2376 – Deep Learning  
+**Repository:** [https://github.com/smithj334/Jonathan-Smith-HCC-AI](https://github.com/smithj334/Jonathan-Smith-HCC-AI)
 
 ---
-*This portfolio represents a journey from foundational deep learning concepts to the engineering of autonomous intelligent systems.*
+
+## 🚀 Overview
+This repository serves as a comprehensive portfolio of my coursework, labs, and capstone project for the Deep Learning curriculum at HCC. It documents my journey from mastering foundational neural network concepts to engineering advanced autonomous agents and generative models.
+
+### 🛠️ Skills & Technologies Learned
+* **Deep Learning Architectures:** Convolutional Neural Networks (CNNs), Recurrent Neural Networks (RNNs), U-Net, Transformers.
+* **Generative AI:** Diffusion models, noise scheduling, and image synthesis.
+* **Agentic AI:** ReAct (Reasoning + Acting) paradigm, RAG (Retrieval-Augmented Generation), and Tool Use.
+* **Core Frameworks:** Python, PyTorch, TensorFlow, Keras.
+* **Tools & Libraries:** FAISS (Vector Database), SQLite, Google Calendar API, PyMuPDF, Einops, Matplotlib.
+
+---
+
+## 📚 Coursework & Labs
+Below is a summary of the key modules completed during this specialization:
+
+* **L02: Exploring Deep Learning Tools** * *Description:* An introduction to transfer learning using the VGG16 model for image classification. Focused on data preprocessing and leveraging pre-trained weights.
+* **A03: The Neural Network Zoo** * *Description:* A theoretical exploration of different neural architectures (CNN, RNN, LSTM, GAN, Transformer) using animal metaphors (e.g., CNN as a Cheetah) to explain their specific strengths and use cases.
+* **L04: CNNs from Scratch (MNIST)** * *Description:* Engineered a high-performance Convolutional Neural Network to classify handwritten digits, achieving **99.15% accuracy**. Concepts covered include Conv2D layers, Pooling, and Dropout.
+* **A05: Arrival & NLP Analysis** * *Description:* A comparative analysis of the film *Arrival* and modern NLP challenges, discussing linguistic relativity, ambiguity, and the evolution from rule-based systems to deep learning models like BERT.
+* **L09: Generative Diffusion Models** * *Description:* Built a diffusion model from the ground up using U-Net and PyTorch to generate images from noise, implementing forward and reverse diffusion processes.
+
+---
+
+## 🌟 Featured Projects
+
+### 1. [Intelligent Process Automation Agent (IPAA)](https://github.com/smithj334/Jonathan-Smith-HCC-AI/blob/main/FN_Notebook_Mora_Miguel_Group3_ITAI2376ipynb%20(2).ipynb)
+* **Type:** Capstone Project  
+* **Description:** An autonomous AI agent that solves "Contextual Action" problems. It uses a **ReAct** loop to decompose tasks (like "Schedule a meeting") into steps, retrieves context from a local **FAISS** vector store, and executes actions using the **Google Calendar API**.
+* **Key Tech:** Python, ReAct Logic, RAG, SQLite, Google APIs.
+
+### 2. [Generative Diffusion Model](https://github.com/smithj334/Jonathan-Smith-HCC-AI/blob/main/L09_Diffusion_student_notebook_Jonathan_Smith_ITAI_2376.ipynb.pdf)
+* **Type:** Advanced Lab  
+* **Description:** Implementation of a Denoising Diffusion Probabilistic Model (DDPM). I built a U-Net to predict noise residuals and successfully generated coherent digit samples from pure Gaussian noise over 100 timesteps.
+* **Key Tech:** PyTorch, U-Net, Einops, Linear Noise Scheduling.
+
+### 3. [High-Performance CNN Classifier](https://github.com/smithj334/Jonathan-Smith-HCC-AI/blob/main/ITAI_2376_L04_CNN_Intro.ipynb%20-%20Colab.pdf)
+* **Type:** Lab Project  
+* **Description:** A specialized CNN architecture designed for the MNIST dataset. By optimizing the feature extraction layers (Conv2D/MaxPooling), I achieved a test accuracy of 99.15%, outperforming standard dense networks.
+* **Key Tech:** TensorFlow, Keras, Categorical Crossentropy.
+
+---
+
+## 📬 Contact Information
+
+I am currently open to opportunities in Deep Learning, AI Engineering, and Intelligent Automation.
+
+* **Name:** Jonathan Smith
+* **Email:** [trustedkeyswjay@gmail.com smith.jonathan.334@gmail.com]
+* **LinkedIn:** [(https://www.linkedin.com/in/jonathan-smith-342171151/)]
+* **GitHub:** [https://github.com/smithj334](https://github.com/smithj334)
+
+---
+*© 2025 Jonathan Smith. All Rights Reserved.*
